@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 mongoose.Promise = global.Promise;
 mongoose
-  .connect(YOUR_MONGODB_URL, {
+  .connect("mongodb+srv://sagarparmar881:ThinkCentre881@cluster0.mlzfbie.mongodb.net/", {
     useNewUrlParser: true,
   })
   .then(() => {
